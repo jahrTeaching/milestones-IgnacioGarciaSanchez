@@ -4,15 +4,15 @@ from numpy import  zeros
 
 """ Resolución del problema de Cauchy o de valor inicial de una ODE mediante 
     un esquema temporal.
-        Argumentos: f    = ecuacion diferencial -> dx/dt = f
+        Argumentos: f_et = funcion del esquema temporal 
+                    f    = ecuacion diferencial -> dx/dt = f
                     xo   = valor inicial (to) de x
                     t    = vector de tiempos (ti) -> len(t) = numero de pasos
-                    f_et = funcion del esquema temporal 
                     
         Output:     matriz de valores de x en el tiempo
                     (filas = xi, columnas = ti)                             """
 
-def Cauchy(f,xo,t,f_et): 
+def Cauchy(f_et,f,xo,t): 
 
      x = zeros((len(xo),len(t))) 
 
@@ -20,7 +20,7 @@ def Cauchy(f,xo,t,f_et):
 
      for i in range(1,len(t)):
 
-        x[:,i:i+1] = f_et(f,x[:,i-1:i],t[i]-t[i-1],t[i]) 
+        x[:,i:i+1] = f_et(f,x[:,i-1:i],t[i]-t[i-1],t[i])[0]
 
      return x
  
