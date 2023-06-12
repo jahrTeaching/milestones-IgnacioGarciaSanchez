@@ -1,5 +1,20 @@
 IGNACIO GARCÍA SÁNCHEZ
 
+Doc folder : Report about the milestones.
+
+Sources folder : main scripts of each milestones and Library folder with the function scripts:
+                | Milestone_1_&_2
+                | Milestone_3
+                | Milestone_4
+                | Milestone_5
+                | Milestone_6
+                | Library -------- | Mecanica Orbital
+                                   | ODEs
+                                   | Plots
+                                   | Metodo_Newton
+                                   | Old versions folder
+
+
 # MUSE Milestones
 ### [contents PDF](https://github.com/jahrWork/MUSE_orbits_S1/blob/master/doc/MUSE_weekly_milestones.pdf)
 
