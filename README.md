@@ -22,7 +22,7 @@ Sources folder : main scripts of each milestones and Library folder with the fun
                                    
                                    | Metodo_Newton
                                    
-                                   | Old versions folder
+                                   | Old versions scripts (Convergencia_y_Desviacion, Esquemas_temporales, kepler, Problema_Cauchy)
                                    
 
 
