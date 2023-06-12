@@ -1,6 +1,6 @@
 IGNACIO GARCÍA SÁNCHEZ
 
-Doc folder : Report about the milestones.
+Doc folder : Report about the milestones -> "Milestones_AM1.pdf"
 
 Sources folder : main scripts of each milestones and Library folder with the function scripts:
 
